@@ -8,17 +8,59 @@
 
 /* Begin PBXBuildFile section */
 		FA12D95128E7E5AB002D41CC /* BJAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12D95028E7E5AB002D41CC /* BJAppApp.swift */; };
-		FA12D95328E7E5AB002D41CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12D95228E7E5AB002D41CC /* ContentView.swift */; };
+		FA12D95328E7E5AB002D41CC /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12D95228E7E5AB002D41CC /* FoodView.swift */; };
 		FA12D95528E7E5AC002D41CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA12D95428E7E5AC002D41CC /* Assets.xcassets */; };
 		FA12D95828E7E5AC002D41CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA12D95728E7E5AC002D41CC /* Preview Assets.xcassets */; };
+		FA31FD5728EC223000A0633E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA31FD5628EC223000A0633E /* HeaderView.swift */; };
+		FA31FD5928EC25B500A0633E /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA31FD5828EC25B500A0633E /* HeaderModel.swift */; };
+		FA31FD5B28EC261300A0633E /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA31FD5A28EC261300A0633E /* HeaderData.swift */; };
+		FA31FD5D28EC271200A0633E /* CookingWayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA31FD5C28EC271200A0633E /* CookingWayView.swift */; };
+		FA31FD5F28EC2A4900A0633E /* FoodCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA31FD5E28EC2A4900A0633E /* FoodCardView.swift */; };
+		FA31FD6128EC2B4800A0633E /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA31FD6028EC2B4800A0633E /* FoodModel.swift */; };
+		FA31FD6328EC2B8200A0633E /* FoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA31FD6228EC2B8200A0633E /* FoodData.swift */; };
+		FA31FD6528EC2D3B00A0633E /* SnackBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA31FD6428EC2D3B00A0633E /* SnackBarModel.swift */; };
+		FA31FD6728EC2D7300A0633E /* SnackBarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA31FD6628EC2D7300A0633E /* SnackBarData.swift */; };
+		FA31FD6928EC2DB900A0633E /* SnackBarCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA31FD6828EC2DB900A0633E /* SnackBarCardView.swift */; };
+		FA31FD6B28EC5DC500A0633E /* SnackBarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA31FD6A28EC5DC500A0633E /* SnackBarRatingView.swift */; };
+		FA31FD6D28EC5E5100A0633E /* SnackBarInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA31FD6C28EC5E5100A0633E /* SnackBarInfoView.swift */; };
+		FA31FD6F28EC5FB500A0633E /* SnackBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA31FD6E28EC5FB500A0633E /* SnackBarDetailView.swift */; };
+		FA48C2C428E98D16001691C3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA48C2C328E98D16001691C3 /* Launch Screen.storyboard */; };
+		FA48C2CA28EB1BC6001691C3 /* BeijingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48C2C928EB1BC6001691C3 /* BeijingView.swift */; };
+		FA48C2CC28EB1BF1001691C3 /* HutongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48C2CB28EB1BF1001691C3 /* HutongView.swift */; };
+		FA48C2CE28EB1C11001691C3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48C2CD28EB1C11001691C3 /* SettingsView.swift */; };
+		FA48C2D028EB1E22001691C3 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48C2CF28EB1E22001691C3 /* AppView.swift */; };
+		FA4CCB2128EC6524005CB1AA /* HutongRankingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CCB2028EC6524005CB1AA /* HutongRankingView.swift */; };
+		FA4CCB2328EC6543005CB1AA /* HutongModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CCB2228EC6543005CB1AA /* HutongModel.swift */; };
+		FA4CCB2528EC6558005CB1AA /* HutongData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CCB2428EC6558005CB1AA /* HutongData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA12D94D28E7E5AB002D41CC /* BJApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BJApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA12D95028E7E5AB002D41CC /* BJAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJAppApp.swift; sourceTree = "<group>"; };
-		FA12D95228E7E5AB002D41CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA12D95228E7E5AB002D41CC /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
 		FA12D95428E7E5AC002D41CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA12D95728E7E5AC002D41CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA31FD5628EC223000A0633E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		FA31FD5828EC25B500A0633E /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		FA31FD5A28EC261300A0633E /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
+		FA31FD5C28EC271200A0633E /* CookingWayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingWayView.swift; sourceTree = "<group>"; };
+		FA31FD5E28EC2A4900A0633E /* FoodCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCardView.swift; sourceTree = "<group>"; };
+		FA31FD6028EC2B4800A0633E /* FoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodModel.swift; sourceTree = "<group>"; };
+		FA31FD6228EC2B8200A0633E /* FoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodData.swift; sourceTree = "<group>"; };
+		FA31FD6428EC2D3B00A0633E /* SnackBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackBarModel.swift; sourceTree = "<group>"; };
+		FA31FD6628EC2D7300A0633E /* SnackBarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackBarData.swift; sourceTree = "<group>"; };
+		FA31FD6828EC2DB900A0633E /* SnackBarCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackBarCardView.swift; sourceTree = "<group>"; };
+		FA31FD6A28EC5DC500A0633E /* SnackBarRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackBarRatingView.swift; sourceTree = "<group>"; };
+		FA31FD6C28EC5E5100A0633E /* SnackBarInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackBarInfoView.swift; sourceTree = "<group>"; };
+		FA31FD6E28EC5FB500A0633E /* SnackBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackBarDetailView.swift; sourceTree = "<group>"; };
+		FA48C2C328E98D16001691C3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		FA48C2C928EB1BC6001691C3 /* BeijingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeijingView.swift; sourceTree = "<group>"; };
+		FA48C2CB28EB1BF1001691C3 /* HutongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HutongView.swift; sourceTree = "<group>"; };
+		FA48C2CD28EB1C11001691C3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FA48C2CF28EB1E22001691C3 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		FA4CCB2028EC6524005CB1AA /* HutongRankingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HutongRankingView.swift; sourceTree = "<group>"; };
+		FA4CCB2228EC6543005CB1AA /* HutongModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HutongModel.swift; sourceTree = "<group>"; };
+		FA4CCB2428EC6558005CB1AA /* HutongData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HutongData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +93,11 @@
 		FA12D94F28E7E5AB002D41CC /* BJApp */ = {
 			isa = PBXGroup;
 			children = (
-				FA12D95028E7E5AB002D41CC /* BJAppApp.swift */,
-				FA12D95228E7E5AB002D41CC /* ContentView.swift */,
+				FA48C2C528EB1A99001691C3 /* Data */,
+				FA48C2C628EB1ABE001691C3 /* Model */,
+				FA48C2C728EB1AD4001691C3 /* View */,
+				FA48C2C828EB1AE6001691C3 /* App */,
+				FA48C2C328E98D16001691C3 /* Launch Screen.storyboard */,
 				FA12D95428E7E5AC002D41CC /* Assets.xcassets */,
 				FA12D95628E7E5AC002D41CC /* Preview Content */,
 			);
@@ -65,6 +110,56 @@
 				FA12D95728E7E5AC002D41CC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA48C2C528EB1A99001691C3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FA31FD5A28EC261300A0633E /* HeaderData.swift */,
+				FA31FD6228EC2B8200A0633E /* FoodData.swift */,
+				FA31FD6628EC2D7300A0633E /* SnackBarData.swift */,
+				FA4CCB2428EC6558005CB1AA /* HutongData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FA48C2C628EB1ABE001691C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA31FD5828EC25B500A0633E /* HeaderModel.swift */,
+				FA31FD6028EC2B4800A0633E /* FoodModel.swift */,
+				FA31FD6428EC2D3B00A0633E /* SnackBarModel.swift */,
+				FA4CCB2228EC6543005CB1AA /* HutongModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA48C2C728EB1AD4001691C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA31FD5628EC223000A0633E /* HeaderView.swift */,
+				FA31FD5C28EC271200A0633E /* CookingWayView.swift */,
+				FA31FD5E28EC2A4900A0633E /* FoodCardView.swift */,
+				FA31FD6828EC2DB900A0633E /* SnackBarCardView.swift */,
+				FA31FD6A28EC5DC500A0633E /* SnackBarRatingView.swift */,
+				FA31FD6C28EC5E5100A0633E /* SnackBarInfoView.swift */,
+				FA31FD6E28EC5FB500A0633E /* SnackBarDetailView.swift */,
+				FA4CCB2028EC6524005CB1AA /* HutongRankingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA48C2C828EB1AE6001691C3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FA12D95028E7E5AB002D41CC /* BJAppApp.swift */,
+				FA12D95228E7E5AB002D41CC /* FoodView.swift */,
+				FA48C2C928EB1BC6001691C3 /* BeijingView.swift */,
+				FA48C2CB28EB1BF1001691C3 /* HutongView.swift */,
+				FA48C2CD28EB1C11001691C3 /* SettingsView.swift */,
+				FA48C2CF28EB1E22001691C3 /* AppView.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA48C2C428E98D16001691C3 /* Launch Screen.storyboard in Resources */,
 				FA12D95828E7E5AC002D41CC /* Preview Assets.xcassets in Resources */,
 				FA12D95528E7E5AC002D41CC /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +233,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA12D95328E7E5AB002D41CC /* ContentView.swift in Sources */,
+				FA31FD5F28EC2A4900A0633E /* FoodCardView.swift in Sources */,
+				FA31FD6D28EC5E5100A0633E /* SnackBarInfoView.swift in Sources */,
+				FA48C2CE28EB1C11001691C3 /* SettingsView.swift in Sources */,
+				FA31FD6728EC2D7300A0633E /* SnackBarData.swift in Sources */,
+				FA48C2CA28EB1BC6001691C3 /* BeijingView.swift in Sources */,
+				FA31FD6128EC2B4800A0633E /* FoodModel.swift in Sources */,
+				FA48C2D028EB1E22001691C3 /* AppView.swift in Sources */,
+				FA4CCB2328EC6543005CB1AA /* HutongModel.swift in Sources */,
+				FA31FD5D28EC271200A0633E /* CookingWayView.swift in Sources */,
+				FA31FD6B28EC5DC500A0633E /* SnackBarRatingView.swift in Sources */,
+				FA31FD6328EC2B8200A0633E /* FoodData.swift in Sources */,
+				FA12D95328E7E5AB002D41CC /* FoodView.swift in Sources */,
 				FA12D95128E7E5AB002D41CC /* BJAppApp.swift in Sources */,
+				FA4CCB2128EC6524005CB1AA /* HutongRankingView.swift in Sources */,
+				FA4CCB2528EC6558005CB1AA /* HutongData.swift in Sources */,
+				FA48C2CC28EB1BF1001691C3 /* HutongView.swift in Sources */,
+				FA31FD6928EC2DB900A0633E /* SnackBarCardView.swift in Sources */,
+				FA31FD5928EC25B500A0633E /* HeaderModel.swift in Sources */,
+				FA31FD5B28EC261300A0633E /* HeaderData.swift in Sources */,
+				FA31FD6F28EC5FB500A0633E /* SnackBarDetailView.swift in Sources */,
+				FA31FD6528EC2D3B00A0633E /* SnackBarModel.swift in Sources */,
+				FA31FD5728EC223000A0633E /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +389,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -303,6 +420,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
