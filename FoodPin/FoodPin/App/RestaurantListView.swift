@@ -82,27 +82,48 @@ struct BasicTextImageRow: View {
                     .foregroundColor(.yellow)
             }
         }
-        .onTapGesture {
-            showOptions.toggle()
-        }
-        .actionSheet(isPresented: $showOptions) {
-            ActionSheet(title: Text("What do you want to do?"),
-                        message: nil,
-                        buttons: [
-                            .default(Text("Reserve a table")) {
-                                self.showError.toggle()
-                            },
-                            .default(Text(restaurant.isFavorite ? "Remove from favorites" : "Mark as favorite")) {
-                                self.restaurant.isFavorite.toggle()
-                            },
-                            .cancel()
-                        ])
+        .contextMenu {
+            Button(action: {
+                self.showError.toggle()
+            }) {
+                HStack {
+                    Text("Reserve a table")
+                    Image(systemName: "phone")
+                }
+            }
+            
+            Button(action: {
+                self.restaurant.isFavorite.toggle()
+            }) {
+                HStack {
+                    Text(restaurant.isFavorite ? "Remove from favorites" : "Mark as favorite")
+                    Image(systemName: "heart")
+                }
+            }
+            
+            Button(action: {
+                self.showOptions.toggle()
+            }) {
+                HStack {
+                    Text("Share")
+                    Image(systemName: "square.and.arrow.up")
+                }
+            }
         }
         .alert(isPresented: $showError) {
             Alert(title: Text("Not yet available"),
                   message: Text("Sorry, this feature is not available yet. Please retry later."),
                   primaryButton: .default(Text("OK")),
                   secondaryButton: .cancel())
+        }
+        .sheet(isPresented: $showOptions) {
+            let defaultText = "Just checking in at \(restaurant.name)"
+            
+            if let imageToShare = UIImage(named: restaurant.image) {
+                ActivityView(activityItems: [defaultText, imageToShare])
+            } else {
+                ActivityView(activityItems: [defaultText])
+            }
         }
     }
 }
