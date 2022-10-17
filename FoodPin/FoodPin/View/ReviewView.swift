@@ -40,15 +40,12 @@ struct ReviewView: View {
                             .foregroundColor(.white)
                             .padding()
                     }
-                    
                     Spacer()
                 }
             }
             
             VStack(alignment: .leading) {
-                
                 ForEach(Restaurant.Rating.allCases, id: \.self) { rating in
-                    
                     HStack {
                         Image(rating.image)
                         Text(rating.rawValue.capitalized)
@@ -59,6 +56,10 @@ struct ReviewView: View {
                     .opacity(showRatings ? 1.0 : 0)
                     .offset(x: showRatings ? 0 : 1000)
                     .animation(.easeOut.delay(Double(Restaurant.Rating.allCases.firstIndex(of: rating)!) * 0.05), value: showRatings)
+                    .onTapGesture {
+                        self.restaurant.rating = rating
+                        self.isDisplayed = false
+                    }
                 }
                 
             }
