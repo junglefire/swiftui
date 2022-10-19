@@ -15,7 +15,7 @@ struct ReviewView: View {
     
     var body: some View {
         ZStack {
-            Image(restaurant.image)
+            Image(uiImage: UIImage(data: restaurant.image)!)
                 .resizable()
                 .scaledToFill()
                 .frame(minWidth: 0, maxWidth: .infinity)
@@ -40,12 +40,15 @@ struct ReviewView: View {
                             .foregroundColor(.white)
                             .padding()
                     }
+                    
                     Spacer()
                 }
             }
             
             VStack(alignment: .leading) {
+                
                 ForEach(Restaurant.Rating.allCases, id: \.self) { rating in
+                    
                     HStack {
                         Image(rating.image)
                         Text(rating.rawValue.capitalized)

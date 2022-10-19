@@ -9,30 +9,24 @@ import SwiftUI
 
 struct RestaurantDetailView: View {
     @Environment(\.dismiss) var dismiss
+    @Environment(\.managedObjectContext) var context
     
     @State private var showReview = false
     
-    var restaurant: Restaurant
+    @ObservedObject var restaurant: Restaurant
     
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
-                Image(restaurant.image)
+                Image(uiImage: UIImage(data: restaurant.image)!)
                     .resizable()
                     .scaledToFill()
                     .frame(minWidth: 0, maxWidth: .infinity)
                     .frame(height: 445)
                     .overlay {
                         VStack {
-                            Image(systemName: restaurant.isFavorite ? "heart.fill": "heart")
-                                .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .topTrailing)
-                                .padding()
-                                .font(.system(size: 30))
-                                .foregroundColor(restaurant.isFavorite ? .yellow : .white)
-                                .padding(.top, 40)
-                            
-                            HStack {
-                                VStack(alignment: .leading, spacing: 5) {
+                            HStack(alignment: .bottom) {
+                                VStack(alignment: .leading) {
                                     Text(restaurant.name)
                                         .font(.custom("Nunito-Regular", size: 35, relativeTo: .largeTitle))
                                         .bold()
@@ -53,11 +47,12 @@ struct RestaurantDetailView: View {
                                         .transition(.scale)
                                 }
                             }
-                            .animation(.spring(response: 0.2, dampingFraction: 0.3, blendDuration: 0.3), value : restaurant.rating)
+                            .animation(.spring(response: 0.2, dampingFraction: 0.3, blendDuration: 0.3), value: restaurant.rating)
+                            
                         }
                     }
                 
-                Text(restaurant.description)
+                Text(restaurant.summary)
                     .padding()
                 
                 HStack(alignment: .top) {
@@ -82,7 +77,7 @@ struct RestaurantDetailView: View {
                 NavigationLink(
                     destination:
                         MapView(location: restaurant.location)
-                        .edgesIgnoringSafeArea(.all)
+                            .edgesIgnoringSafeArea(.all)
                 ) {
                     MapView(location: restaurant.location, interactionModes: [])
                         .frame(minWidth: 0, maxWidth: .infinity)
@@ -104,7 +99,7 @@ struct RestaurantDetailView: View {
                 .controlSize(.large)
                 .padding(.horizontal)
                 .padding(.bottom, 20)
-                
+
             }
             .navigationBarBackButtonHidden(true)
             .toolbar {
@@ -116,18 +111,35 @@ struct RestaurantDetailView: View {
                     }
                     .opacity(showReview ? 0 : 1)
                 }
+                
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: {
+                        restaurant.isFavorite.toggle()
+                    }) {
+                        Image(systemName: restaurant.isFavorite ? "heart.fill": "heart")
+                            .font(.system(size: 25))
+                            .foregroundColor(restaurant.isFavorite ? .yellow : .white)
+                            
+                    }
+                    .opacity(showReview ? 0 : 1)
+                }
             }
         }
         .ignoresSafeArea()
         .overlay(
             self.showReview ?
-            ZStack {
-                ReviewView(isDisplayed: $showReview, restaurant: restaurant)
-                    .navigationBarHidden(true)
-            }
+                ZStack {
+                    ReviewView(isDisplayed: $showReview, restaurant: restaurant)
+                        .navigationBarHidden(true)
+                }
+                
             : nil
         )
-        
+        .onChange(of: restaurant) { _ in
+            if self.context.hasChanges {
+                try? self.context.save()
+            }
+        }
     }
 }
 

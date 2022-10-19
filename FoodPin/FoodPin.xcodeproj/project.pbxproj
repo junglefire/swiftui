@@ -21,6 +21,9 @@
 		FA8652AC28F937E600C49827 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8652AB28F937E600C49827 /* UIColor+Ext.swift */; };
 		FA8652AF28F9480C00C49827 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8652AE28F9480C00C49827 /* MapView.swift */; };
 		FA8652B128FA490A00C49827 /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8652B028FA490A00C49827 /* ReviewView.swift */; };
+		FA8A409928FCEBCC0088D283 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A409828FCEBCC0088D283 /* Persistence.swift */; };
+		FA8A409C28FCED890088D283 /* FoodPin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA8A409A28FCED890088D283 /* FoodPin.xcdatamodeld */; };
+		FA8A409F28FCF7AD0088D283 /* RestaurantFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A409E28FCF7AD0088D283 /* RestaurantFormViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		FA8652AB28F937E600C49827 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		FA8652AE28F9480C00C49827 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		FA8652B028FA490A00C49827 /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
+		FA8A409828FCEBCC0088D283 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		FA8A409B28FCED890088D283 /* FoodPin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodPin.xcdatamodel; sourceTree = "<group>"; };
+		FA8A409E28FCF7AD0088D283 /* RestaurantFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantFormViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,11 +78,13 @@
 		FA1A858628F7F6440021474D /* FoodPin */ = {
 			isa = PBXGroup;
 			children = (
+				FA8A409A28FCED890088D283 /* FoodPin.xcdatamodeld */,
 				FA8652A928F92DEA00C49827 /* Info.plist */,
 				FA8652A328F92C6400C49827 /* Resources */,
 				FA8652AA28F936FA00C49827 /* Extensions */,
 				FA60C80F28FCDF6F00D522DB /* Util */,
 				FA86529B28F8EBCD00C49827 /* Model */,
+				FA8A409D28FCF7940088D283 /* ViewModel */,
 				FA8652AD28F947E600C49827 /* View */,
 				FA86529E28F8EE7E00C49827 /* App */,
 				FA1A858B28F7F6460021474D /* Assets.xcassets */,
@@ -105,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				FA86529C28F8EBE400C49827 /* Restaurant.swift */,
+				FA8A409828FCEBCC0088D283 /* Persistence.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -153,6 +162,14 @@
 				FA864C6E28FBE73D00C4D12D /* NewRestaurantView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		FA8A409D28FCF7940088D283 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FA8A409E28FCF7AD0088D283 /* RestaurantFormViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +244,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8A409F28FCF7AD0088D283 /* RestaurantFormViewModel.swift in Sources */,
+				FA8A409928FCEBCC0088D283 /* Persistence.swift in Sources */,
 				FA8652B128FA490A00C49827 /* ReviewView.swift in Sources */,
 				FA8652AF28F9480C00C49827 /* MapView.swift in Sources */,
 				FA1A858A28F7F6440021474D /* RestaurantListView.swift in Sources */,
@@ -237,6 +256,7 @@
 				FA60C81128FCDF8700D522DB /* ImagePicker.swift in Sources */,
 				FA1A858828F7F6440021474D /* FoodPinApp.swift in Sources */,
 				FA86529D28F8EBE400C49827 /* Restaurant.swift in Sources */,
+				FA8A409C28FCED890088D283 /* FoodPin.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +459,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA8A409A28FCED890088D283 /* FoodPin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA8A409B28FCED890088D283 /* FoodPin.xcdatamodel */,
+			);
+			currentVersion = FA8A409B28FCED890088D283 /* FoodPin.xcdatamodel */;
+			path = FoodPin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FA1A857C28F7F6440021474D /* Project object */;
 }
