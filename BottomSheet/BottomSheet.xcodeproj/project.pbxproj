@@ -12,6 +12,11 @@
 		FA85600A2901426700108368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8560092901426700108368 /* Assets.xcassets */; };
 		FA85600D2901426700108368 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA85600C2901426700108368 /* Preview Assets.xcassets */; };
 		FA8560152901439E00108368 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8560142901439E00108368 /* Restaurant.swift */; };
+		FA8560182901473800108368 /* BasicImageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8560172901473800108368 /* BasicImageRow.swift */; };
+		FA85601B2901482400108368 /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85601A2901482400108368 /* RestaurantDetailView.swift */; };
+		FA85601D2901486800108368 /* DetailPageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85601C2901486800108368 /* DetailPageComponent.swift */; };
+		FA85601F2902239900108368 /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85601E2902239900108368 /* BlankView.swift */; };
+		FA8560222902252400108368 /* DragState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8560212902252400108368 /* DragState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,11 @@
 		FA8560092901426700108368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA85600C2901426700108368 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA8560142901439E00108368 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		FA8560172901473800108368 /* BasicImageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicImageRow.swift; sourceTree = "<group>"; };
+		FA85601A2901482400108368 /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
+		FA85601C2901486800108368 /* DetailPageComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPageComponent.swift; sourceTree = "<group>"; };
+		FA85601E2902239900108368 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+		FA8560212902252400108368 /* DragState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +63,10 @@
 		FA8560042901426600108368 /* BottomSheet */ = {
 			isa = PBXGroup;
 			children = (
+				FA8560202902251400108368 /* State */,
+				FA8560162901471B00108368 /* View */,
 				FA8560132901438E00108368 /* Model */,
-				FA8560052901426600108368 /* BottomSheetApp.swift */,
-				FA8560072901426600108368 /* ContentView.swift */,
+				FA8560192901481700108368 /* App */,
 				FA8560092901426700108368 /* Assets.xcassets */,
 				FA85600B2901426700108368 /* Preview Content */,
 			);
@@ -76,6 +87,34 @@
 				FA8560142901439E00108368 /* Restaurant.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		FA8560162901471B00108368 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA8560172901473800108368 /* BasicImageRow.swift */,
+				FA85601E2902239900108368 /* BlankView.swift */,
+				FA85601C2901486800108368 /* DetailPageComponent.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA8560192901481700108368 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FA8560052901426600108368 /* BottomSheetApp.swift */,
+				FA8560072901426600108368 /* ContentView.swift */,
+				FA85601A2901482400108368 /* RestaurantDetailView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FA8560202902251400108368 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				FA8560212902252400108368 /* DragState.swift */,
+			);
+			path = State;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +188,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA8560082901426600108368 /* ContentView.swift in Sources */,
+				FA8560222902252400108368 /* DragState.swift in Sources */,
+				FA85601D2901486800108368 /* DetailPageComponent.swift in Sources */,
+				FA85601B2901482400108368 /* RestaurantDetailView.swift in Sources */,
 				FA8560062901426600108368 /* BottomSheetApp.swift in Sources */,
 				FA8560152901439E00108368 /* Restaurant.swift in Sources */,
+				FA8560182901473800108368 /* BasicImageRow.swift in Sources */,
+				FA85601F2902239900108368 /* BlankView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
