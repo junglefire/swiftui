@@ -29,6 +29,7 @@ struct ProgressRingView: View {
                         endAngle: .degrees(360 * progress + startAngle)
                     )
                 )
+                .animatableProgressText(progress: progress)
                         
             RingTip(progress: progress, startAngle: startAngle, ringRadius: radius)
                 .frame(width: thickness, height: thickness)

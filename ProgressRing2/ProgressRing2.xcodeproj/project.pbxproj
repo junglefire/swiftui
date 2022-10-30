@@ -15,6 +15,7 @@
 		FA8BD46F290E0AA600DF4204 /* ProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8BD46E290E0AA600DF4204 /* ProgressRingView.swift */; };
 		FA8BD471290E0B6E00DF4204 /* RingShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8BD470290E0B6E00DF4204 /* RingShape.swift */; };
 		FA8BD473290E158C00DF4204 /* RingTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8BD472290E158C00DF4204 /* RingTip.swift */; };
+		FAC046FC290E19FC00C45E7B /* ProgressTextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC046FB290E19FC00C45E7B /* ProgressTextModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		FA8BD46E290E0AA600DF4204 /* ProgressRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRingView.swift; sourceTree = "<group>"; };
 		FA8BD470290E0B6E00DF4204 /* RingShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingShape.swift; sourceTree = "<group>"; };
 		FA8BD472290E158C00DF4204 /* RingTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingTip.swift; sourceTree = "<group>"; };
+		FAC046FB290E19FC00C45E7B /* ProgressTextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTextModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				FA8BD46E290E0AA600DF4204 /* ProgressRingView.swift */,
 				FA8BD470290E0B6E00DF4204 /* RingShape.swift */,
 				FA8BD472290E158C00DF4204 /* RingTip.swift */,
+				FAC046FB290E19FC00C45E7B /* ProgressTextModifier.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC046FC290E19FC00C45E7B /* ProgressTextModifier.swift in Sources */,
 				FA8BD45E290E095A00DF4204 /* ContentView.swift in Sources */,
 				FA8BD473290E158C00DF4204 /* RingTip.swift in Sources */,
 				FA8BD471290E0B6E00DF4204 /* RingShape.swift in Sources */,
