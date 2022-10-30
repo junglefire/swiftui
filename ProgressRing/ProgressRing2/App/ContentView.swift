@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  ProgressRing
+//  ProgressRing2
 //
-//  Created by alex on 2022/10/29.
+//  Created by alex on 2022/10/30.
 //
 
 import SwiftUI

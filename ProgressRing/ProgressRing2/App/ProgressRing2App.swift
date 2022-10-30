@@ -1,14 +1,14 @@
 //
-//  ProgressRingApp.swift
-//  ProgressRing
+//  ProgressRing2App.swift
+//  ProgressRing2
 //
-//  Created by alex on 2022/10/29.
+//  Created by alex on 2022/10/30.
 //
 
 import SwiftUI
 
 @main
-struct ProgressRingApp: App {
+struct ProgressRing2App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

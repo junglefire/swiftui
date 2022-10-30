@@ -7,30 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA1DF7A1290CD2E300CCEF89 /* RingShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DF7A0290CD2E300CCEF89 /* RingShape.swift */; };
-		FA1DF7A3290CD4FC00CCEF89 /* RingTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DF7A2290CD4FC00CCEF89 /* RingTip.swift */; };
-		FA874554290CD00D00E24F94 /* ProgressRingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA874553290CD00D00E24F94 /* ProgressRingApp.swift */; };
-		FA874556290CD00D00E24F94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA874555290CD00D00E24F94 /* ContentView.swift */; };
-		FA874558290CD00E00E24F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA874557290CD00E00E24F94 /* Assets.xcassets */; };
-		FA87455B290CD00E00E24F94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA87455A290CD00E00E24F94 /* Preview Assets.xcassets */; };
-		FA874562290CD03500E24F94 /* ProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA874561290CD03500E24F94 /* ProgressRingView.swift */; };
-		FA874564290CD11A00E24F94 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA874563290CD11A00E24F94 /* Color+Ext.swift */; };
+		FA8BD45C290E095A00DF4204 /* ProgressRing2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8BD45B290E095A00DF4204 /* ProgressRing2App.swift */; };
+		FA8BD45E290E095A00DF4204 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8BD45D290E095A00DF4204 /* ContentView.swift */; };
+		FA8BD460290E095C00DF4204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8BD45F290E095C00DF4204 /* Assets.xcassets */; };
+		FA8BD463290E095C00DF4204 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8BD462290E095C00DF4204 /* Preview Assets.xcassets */; };
+		FA8BD46B290E09C900DF4204 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8BD46A290E09C900DF4204 /* Color+Ext.swift */; };
+		FA8BD46F290E0AA600DF4204 /* ProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8BD46E290E0AA600DF4204 /* ProgressRingView.swift */; };
+		FA8BD471290E0B6E00DF4204 /* RingShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8BD470290E0B6E00DF4204 /* RingShape.swift */; };
+		FA8BD473290E158C00DF4204 /* RingTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8BD472290E158C00DF4204 /* RingTip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FA1DF7A0290CD2E300CCEF89 /* RingShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingShape.swift; sourceTree = "<group>"; };
-		FA1DF7A2290CD4FC00CCEF89 /* RingTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingTip.swift; sourceTree = "<group>"; };
-		FA874550290CD00D00E24F94 /* ProgressRing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressRing.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA874553290CD00D00E24F94 /* ProgressRingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRingApp.swift; sourceTree = "<group>"; };
-		FA874555290CD00D00E24F94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FA874557290CD00E00E24F94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FA87455A290CD00E00E24F94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FA874561290CD03500E24F94 /* ProgressRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRingView.swift; sourceTree = "<group>"; };
-		FA874563290CD11A00E24F94 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		FA8BD458290E095A00DF4204 /* ProgressRing2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressRing2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8BD45B290E095A00DF4204 /* ProgressRing2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRing2App.swift; sourceTree = "<group>"; };
+		FA8BD45D290E095A00DF4204 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA8BD45F290E095C00DF4204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA8BD462290E095C00DF4204 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA8BD46A290E09C900DF4204 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		FA8BD46E290E0AA600DF4204 /* ProgressRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRingView.swift; sourceTree = "<group>"; };
+		FA8BD470290E0B6E00DF4204 /* RingShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingShape.swift; sourceTree = "<group>"; };
+		FA8BD472290E158C00DF4204 /* RingTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingTip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FA87454D290CD00D00E24F94 /* Frameworks */ = {
+		FA8BD455290E095A00DF4204 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,81 +40,105 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FA874547290CD00D00E24F94 = {
+		FA8BD44F290E095A00DF4204 = {
 			isa = PBXGroup;
 			children = (
-				FA874552290CD00D00E24F94 /* ProgressRing */,
-				FA874551290CD00D00E24F94 /* Products */,
+				FA8BD45A290E095A00DF4204 /* ProgressRing2 */,
+				FA8BD459290E095A00DF4204 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FA874551290CD00D00E24F94 /* Products */ = {
+		FA8BD459290E095A00DF4204 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA874550290CD00D00E24F94 /* ProgressRing.app */,
+				FA8BD458290E095A00DF4204 /* ProgressRing2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FA874552290CD00D00E24F94 /* ProgressRing */ = {
+		FA8BD45A290E095A00DF4204 /* ProgressRing2 */ = {
 			isa = PBXGroup;
 			children = (
-				FA874563290CD11A00E24F94 /* Color+Ext.swift */,
-				FA874553290CD00D00E24F94 /* ProgressRingApp.swift */,
-				FA874555290CD00D00E24F94 /* ContentView.swift */,
-				FA874561290CD03500E24F94 /* ProgressRingView.swift */,
-				FA1DF7A0290CD2E300CCEF89 /* RingShape.swift */,
-				FA1DF7A2290CD4FC00CCEF89 /* RingTip.swift */,
-				FA874557290CD00E00E24F94 /* Assets.xcassets */,
-				FA874559290CD00E00E24F94 /* Preview Content */,
+				FA8BD469290E09BC00DF4204 /* Extentions */,
+				FA8BD46D290E0A9800DF4204 /* App */,
+				FA8BD46C290E0A8D00DF4204 /* View */,
+				FA8BD45F290E095C00DF4204 /* Assets.xcassets */,
+				FA8BD461290E095C00DF4204 /* Preview Content */,
 			);
-			path = ProgressRing;
+			path = ProgressRing2;
 			sourceTree = "<group>";
 		};
-		FA874559290CD00E00E24F94 /* Preview Content */ = {
+		FA8BD461290E095C00DF4204 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				FA87455A290CD00E00E24F94 /* Preview Assets.xcassets */,
+				FA8BD462290E095C00DF4204 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA8BD469290E09BC00DF4204 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				FA8BD46A290E09C900DF4204 /* Color+Ext.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		FA8BD46C290E0A8D00DF4204 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA8BD46E290E0AA600DF4204 /* ProgressRingView.swift */,
+				FA8BD470290E0B6E00DF4204 /* RingShape.swift */,
+				FA8BD472290E158C00DF4204 /* RingTip.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA8BD46D290E0A9800DF4204 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FA8BD45B290E095A00DF4204 /* ProgressRing2App.swift */,
+				FA8BD45D290E095A00DF4204 /* ContentView.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA87454F290CD00D00E24F94 /* ProgressRing */ = {
+		FA8BD457290E095A00DF4204 /* ProgressRing2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA87455E290CD00E00E24F94 /* Build configuration list for PBXNativeTarget "ProgressRing" */;
+			buildConfigurationList = FA8BD466290E095C00DF4204 /* Build configuration list for PBXNativeTarget "ProgressRing2" */;
 			buildPhases = (
-				FA87454C290CD00D00E24F94 /* Sources */,
-				FA87454D290CD00D00E24F94 /* Frameworks */,
-				FA87454E290CD00D00E24F94 /* Resources */,
+				FA8BD454290E095A00DF4204 /* Sources */,
+				FA8BD455290E095A00DF4204 /* Frameworks */,
+				FA8BD456290E095A00DF4204 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ProgressRing;
-			productName = ProgressRing;
-			productReference = FA874550290CD00D00E24F94 /* ProgressRing.app */;
+			name = ProgressRing2;
+			productName = ProgressRing2;
+			productReference = FA8BD458290E095A00DF4204 /* ProgressRing2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FA874548290CD00D00E24F94 /* Project object */ = {
+		FA8BD450290E095A00DF4204 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					FA87454F290CD00D00E24F94 = {
+					FA8BD457290E095A00DF4204 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = FA87454B290CD00D00E24F94 /* Build configuration list for PBXProject "ProgressRing" */;
+			buildConfigurationList = FA8BD453290E095A00DF4204 /* Build configuration list for PBXProject "ProgressRing2" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,46 +146,46 @@
 				en,
 				Base,
 			);
-			mainGroup = FA874547290CD00D00E24F94;
-			productRefGroup = FA874551290CD00D00E24F94 /* Products */;
+			mainGroup = FA8BD44F290E095A00DF4204;
+			productRefGroup = FA8BD459290E095A00DF4204 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA87454F290CD00D00E24F94 /* ProgressRing */,
+				FA8BD457290E095A00DF4204 /* ProgressRing2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FA87454E290CD00D00E24F94 /* Resources */ = {
+		FA8BD456290E095A00DF4204 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA87455B290CD00E00E24F94 /* Preview Assets.xcassets in Resources */,
-				FA874558290CD00E00E24F94 /* Assets.xcassets in Resources */,
+				FA8BD463290E095C00DF4204 /* Preview Assets.xcassets in Resources */,
+				FA8BD460290E095C00DF4204 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FA87454C290CD00D00E24F94 /* Sources */ = {
+		FA8BD454290E095A00DF4204 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA874556290CD00D00E24F94 /* ContentView.swift in Sources */,
-				FA1DF7A3290CD4FC00CCEF89 /* RingTip.swift in Sources */,
-				FA1DF7A1290CD2E300CCEF89 /* RingShape.swift in Sources */,
-				FA874564290CD11A00E24F94 /* Color+Ext.swift in Sources */,
-				FA874554290CD00D00E24F94 /* ProgressRingApp.swift in Sources */,
-				FA874562290CD03500E24F94 /* ProgressRingView.swift in Sources */,
+				FA8BD45E290E095A00DF4204 /* ContentView.swift in Sources */,
+				FA8BD473290E158C00DF4204 /* RingTip.swift in Sources */,
+				FA8BD471290E0B6E00DF4204 /* RingShape.swift in Sources */,
+				FA8BD46F290E0AA600DF4204 /* ProgressRingView.swift in Sources */,
+				FA8BD45C290E095A00DF4204 /* ProgressRing2App.swift in Sources */,
+				FA8BD46B290E09C900DF4204 /* Color+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FA87455C290CD00E00E24F94 /* Debug */ = {
+		FA8BD464290E095C00DF4204 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -221,7 +245,7 @@
 			};
 			name = Debug;
 		};
-		FA87455D290CD00E00E24F94 /* Release */ = {
+		FA8BD465290E095C00DF4204 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -275,14 +299,14 @@
 			};
 			name = Release;
 		};
-		FA87455F290CD00E00E24F94 /* Debug */ = {
+		FA8BD467290E095C00DF4204 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ProgressRing/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ProgressRing2/Preview Content\"";
 				DEVELOPMENT_TEAM = DW2V8GYWZB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -296,7 +320,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alex.ProgressRing;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.ProgressRing2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -304,14 +328,14 @@
 			};
 			name = Debug;
 		};
-		FA874560290CD00E00E24F94 /* Release */ = {
+		FA8BD468290E095C00DF4204 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ProgressRing/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ProgressRing2/Preview Content\"";
 				DEVELOPMENT_TEAM = DW2V8GYWZB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -325,7 +349,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alex.ProgressRing;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.ProgressRing2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -336,25 +360,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA87454B290CD00D00E24F94 /* Build configuration list for PBXProject "ProgressRing" */ = {
+		FA8BD453290E095A00DF4204 /* Build configuration list for PBXProject "ProgressRing2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA87455C290CD00E00E24F94 /* Debug */,
-				FA87455D290CD00E00E24F94 /* Release */,
+				FA8BD464290E095C00DF4204 /* Debug */,
+				FA8BD465290E095C00DF4204 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA87455E290CD00E00E24F94 /* Build configuration list for PBXNativeTarget "ProgressRing" */ = {
+		FA8BD466290E095C00DF4204 /* Build configuration list for PBXNativeTarget "ProgressRing2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA87455F290CD00E00E24F94 /* Debug */,
-				FA874560290CD00E00E24F94 /* Release */,
+				FA8BD467290E095C00DF4204 /* Debug */,
+				FA8BD468290E095C00DF4204 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FA874548290CD00D00E24F94 /* Project object */;
+	rootObject = FA8BD450290E095A00DF4204 /* Project object */;
 }
